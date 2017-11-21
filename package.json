@@ -1,0 +1,22 @@
+{
+  "name": "dm-visual-regression-test-app",
+  "version": "1.0.0",
+  "description": "Super simple app VG testing app with login",
+  "scripts": {
+    "approve": "backstop approve",
+    "test": "backstop test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louzoid-gds/dm-visual-regression-test-app.git"
+  },
+  "author": "Louise Ryan",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/louzoid-gds/dm-visual-regression-test-app/issues"
+  },
+  "homepage": "https://github.com/louzoid-gds/dm-visual-regression-test-app#readme",
+  "devDependencies": {
+    "backstopjs": "^3.0.25"
+  }
+}
