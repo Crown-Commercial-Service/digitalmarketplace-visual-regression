@@ -10,6 +10,12 @@ module.exports = function (casper, scenario) {
   } else if (scenario.user === 'admin') {
     var email = system.env.DM_PRODUCTION_ADMIN_USER_EMAIL;
     var password = system.env.DM_PRODUCTION_ADMIN_USER_PASSWORD;
+  } else if (scenario.user === 'category') {
+    var email = system.env.DM_PRODUCTION_ADMIN_CCS_CATEGORY_USER_EMAIL;
+    var password = system.env.DM_PRODUCTION_ADMIN_CCS_CATEGORY_USER_PASSWORD;
+  } else if (scenario.user === 'sourcing') {
+    var email = system.env.DM_PRODUCTION_ADMIN_CCS_SOURCING_USER_EMAIL;
+    var password = system.env.DM_PRODUCTION_ADMIN_CCS_SOURCING_USER_PASSWORD;
   } else {
     casper.echo('No user required for this scenario.', 'DEBUG');
   }

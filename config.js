@@ -149,10 +149,17 @@ module.exports = {
       "url": domain + "/admin/suppliers?supplier_name_prefix=a",
       "user": "admin",
     },
+
     {
-      "label": environment + ": Admin - Account - Download user lists",
-      "url": domain + "/admin/users/download",
-      "user": "admin",
+      "label": environment + ": Category - Account - dashboard",
+      "url": domain + "/admin",
+      "user": "category",
+    },
+
+    {
+      "label": environment + ": Sourcing - Account - On-Hold DOS2 agreements",
+      "url": domain + "/admin/agreements/digital-outcomes-and-specialists-2?status=on-hold",
+      "user": "sourcing",
     }
   ],
   "paths": {
