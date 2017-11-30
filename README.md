@@ -22,3 +22,9 @@ With the basic setup as supplied, this will run an initial test on your localhos
 `npm run approve -- --configPath=config.js`
 
 Now you can happily change your local apps and run tests (with `npm run test`) to make sure you've not broken things!  Everytime you do a good change, simply `npm run approve` to update your reference screenshots.
+
+## Updating the docker image
+
+Update `VERSION` in the script whenever you make changes to the image configuration. Until BackstopJS has versioned Docker images, re-building our copy will pull in the latest version of BackstopJS, so be aware of that.
+
+Then run `./scripts/build-and-push-docker-image.sh` and update the Docker image version pulled by the visual-regression Jenkins job.
