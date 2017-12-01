@@ -137,22 +137,29 @@ module.exports = {
     {
       "label": environment + ": Admin - Account - dashboard",
       "url": domain + "/admin",
-      "user": "admin",
+      "user": "admin-support",
     },
     {
       "label": environment + ": Admin - Account - Add buyer domain",
       "url": domain + "/admin/buyers/add-buyer-domains",
-      "user": "admin",
+      "user": "admin-support",
     },
     {
       "label": environment + ": Admin - Account - Suppliers starting with 'a'",
       "url": domain + "/admin/suppliers?supplier_name_prefix=a",
-      "user": "admin",
+      "user": "admin-support",
     },
+
     {
-      "label": environment + ": Admin - Account - Download user lists",
-      "url": domain + "/admin/users/download",
-      "user": "admin",
+      "label": environment + ": Category - Account - dashboard",
+      "url": domain + "/admin",
+      "user": "admin-category",
+    },
+
+    {
+      "label": environment + ": Sourcing - Account - On-Hold DOS2 agreements",
+      "url": domain + "/admin/agreements/digital-outcomes-and-specialists-2?status=on-hold",
+      "user": "admin-sourcing",
     }
   ],
   "paths": {
