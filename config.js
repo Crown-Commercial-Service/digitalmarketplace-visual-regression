@@ -79,6 +79,11 @@ module.exports = {
       "url": domain + "/user/reset-password/1",
     },
 
+    {
+      "label": environment + ": Category - Account - dashboard",
+      "url": domain + "/admin",
+      "user": "admin-category",
+    },
 
     {
       "label": environment + ": Buyer - Account - Dashboard",
@@ -104,6 +109,11 @@ module.exports = {
       "user": "buyer"
     },
 
+    {
+      "label": environment + ": Sourcing - Account - On-Hold DOS2 agreements",
+      "url": domain + "/admin/agreements/digital-outcomes-and-specialists-2?status=on-hold",
+      "user": "admin-sourcing",
+    },
 
     {
       "label": environment + ": Supplier - Sign up for framework alerts",
@@ -148,18 +158,6 @@ module.exports = {
       "label": environment + ": Admin - Account - Suppliers starting with 'a'",
       "url": domain + "/admin/suppliers?supplier_name_prefix=a",
       "user": "admin-support",
-    },
-
-    {
-      "label": environment + ": Category - Account - dashboard",
-      "url": domain + "/admin",
-      "user": "admin-category",
-    },
-
-    {
-      "label": environment + ": Sourcing - Account - On-Hold DOS2 agreements",
-      "url": domain + "/admin/agreements/digital-outcomes-and-specialists-2?status=on-hold",
-      "user": "admin-sourcing",
     }
   ],
   "paths": {
