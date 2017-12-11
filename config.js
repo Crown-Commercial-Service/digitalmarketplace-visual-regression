@@ -40,7 +40,14 @@ module.exports = {
       "label": environment + ": Crown Hosting - Overview",
       "url": domain + "/crown-hosting"
     },
-
+    {
+      "label": environment + ": Terms and conditions",
+      "url": domain + "/terms-and-conditions"
+    },
+    {
+      "label": environment + ": Cookies",
+      "url": domain + "/cookies"
+    },
 
     {
       "label": environment + ": DOS - Find a specialist",
