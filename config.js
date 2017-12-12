@@ -28,11 +28,11 @@ module.exports = {
   "onReadyScript": "onReady.js",
   "scenarios": [
     {
-      "label": environment + ": DM Homepage",
+      "label": environment + ": Homepage",
       "url": domain
     },
     {
-      "label": environment + ": DM Homepage with feedback form open",
+      "label": environment + ": Homepage with feedback form open",
       "url": domain,
       "clickSelector": ".js-report-a-problem-toggle"
     },
@@ -48,6 +48,7 @@ module.exports = {
       "label": environment + ": Cookies",
       "url": domain + "/cookies"
     },
+
 
     {
       "label": environment + ": DOS - Find a specialist",
@@ -86,11 +87,6 @@ module.exports = {
       "url": domain + "/user/reset-password/1",
     },
 
-    {
-      "label": environment + ": Category - Account - dashboard",
-      "url": domain + "/admin",
-      "user": "admin-category",
-    },
 
     {
       "label": environment + ": Buyer - Account - Dashboard",
@@ -116,11 +112,6 @@ module.exports = {
       "user": "buyer"
     },
 
-    {
-      "label": environment + ": Sourcing - Account - On-Hold DOS2 agreements",
-      "url": domain + "/admin/agreements/digital-outcomes-and-specialists-2?status=on-hold",
-      "user": "admin-sourcing",
-    },
 
     {
       "label": environment + ": Supplier - Sign up for framework alerts",
@@ -152,19 +143,31 @@ module.exports = {
 
 
     {
-      "label": environment + ": Admin - Account - dashboard",
+      "label": environment + ": Admin (Support) - Account - dashboard",
       "url": domain + "/admin",
       "user": "admin-support",
     },
     {
-      "label": environment + ": Admin - Account - Add buyer domain",
+      "label": environment + ": Admin (Support) - Account - Add buyer domain",
       "url": domain + "/admin/buyers/add-buyer-domains",
       "user": "admin-support",
     },
     {
-      "label": environment + ": Admin - Account - Suppliers starting with 'a'",
+      "label": environment + ": Admin (Support) - Account - Suppliers starting with 'a'",
       "url": domain + "/admin/suppliers?supplier_name_prefix=a",
       "user": "admin-support",
+    },
+
+    {
+      "label": environment + ": Admin (Sourcing) - Account - On-Hold DOS2 agreements",
+      "url": domain + "/admin/agreements/digital-outcomes-and-specialists-2?status=on-hold",
+      "user": "admin-sourcing",
+    },
+
+    {
+      "label": environment + ": Admin (Category) - Account - dashboard",
+      "url": domain + "/admin",
+      "user": "admin-category",
     }
   ],
   "paths": {
