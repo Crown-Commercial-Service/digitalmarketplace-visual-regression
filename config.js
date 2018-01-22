@@ -48,7 +48,10 @@ module.exports = {
       "label": environment + ": Cookies",
       "url": domain + "/cookies"
     },
-
+    {
+      "label": environment + ": Help",
+      "url": domain + "/help"
+    },
 
     {
       "label": environment + ": DOS - Find a specialist",
