@@ -140,7 +140,7 @@ module.exports = {
     },
     {
       "label": environment + ": Supplier - Account - Edit details",
-      "url": domain + "/suppliers/details/edit",
+      "url": domain + "/suppliers/what-buyers-will-see/edit",
       "user": "supplier",
     },
 
