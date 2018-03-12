@@ -122,11 +122,11 @@ module.exports = {
     },
     {
       "label": environment + ": Supplier - DUNS number",
-      "url": domain + "/suppliers/duns-number",
+      "url": domain + "/suppliers/create/duns-number",
     },
     {
       "label": environment + ": Supplier - Company summary",
-      "url": domain + "/suppliers/company-summary",
+      "url": domain + "/suppliers/create/company-summary",
     },
     {
       "label": environment + ": Supplier - Account - Dashboard",
