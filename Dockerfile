@@ -1,4 +1,4 @@
-FROM backstopjs/backstopjs
+FROM backstopjs/backstopjs:v3.0.38
 
 # Creates a Docker group and Jenkins user so that files created within the container are modifiable by the host.
 
