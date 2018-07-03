@@ -64,8 +64,12 @@ module.exports = {
 
 
     {
+      "label": environment + ": G-Cloud - start",
+      "url": domain + "/buyers/direct-award/g-cloud/start"
+    },
+    {
       "label": environment + ": G-Cloud - lots",
-      "url": domain + "/g-cloud"
+      "url": domain + "/buyers/direct-award/g-cloud/choose-lot"
     },
     {
       "label": environment + ": G-Cloud - Cloud hosting search results",
