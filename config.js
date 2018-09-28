@@ -55,11 +55,11 @@ module.exports = {
 
     {
       "label": environment + ": DOS - Find a specialist",
-      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-2/requirements/digital-specialists"
+      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-3/requirements/digital-specialists"
     },
     {
       "label": environment + ": DOS - Find a user research studio",
-      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-2/requirements/user-research-studios"
+      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-3/requirements/user-research-studios"
     },
 
 
@@ -102,12 +102,12 @@ module.exports = {
     },
     {
       "label": environment + ": Buyer - Account - Create requirement form",
-      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-2/requirements/digital-specialists/create",
+      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-3/requirements/digital-specialists/create",
       "user": "buyer",
     },
     {
       "label": environment + ": Buyer - Account - Create requirement form - Validation",
-      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-2/requirements/digital-specialists/create",
+      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-3/requirements/digital-specialists/create",
       "user": "buyer",
       "submitForm": true
     },
@@ -167,7 +167,7 @@ module.exports = {
 
     {
       "label": environment + ": Admin (Sourcing) - Account - On-Hold DOS2 agreements",
-      "url": domain + "/admin/agreements/digital-outcomes-and-specialists-2?status=on-hold",
+      "url": domain + "/admin/agreements/digital-outcomes-and-specialists-3?status=on-hold",
       "user": "admin-sourcing",
     },
 

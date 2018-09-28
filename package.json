@@ -1,6 +1,6 @@
 {
   "name": "dm-visual-regression-test-app",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "Super simple app VG testing app with login",
   "scripts": {
     "approve": "backstop approve",
