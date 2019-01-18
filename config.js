@@ -160,8 +160,8 @@ module.exports = {
       "user": "admin-support",
     },
     {
-      "label": environment + ": Admin (Support) - Account - Suppliers starting with 'a'",
-      "url": domain + "/admin/suppliers?supplier_name_prefix=a",
+      "label": environment + ": Admin (Support) - Account - Suppliers containing 'ltd'",
+      "url": domain + "/admin/suppliers?supplier_name=ltd",
       "user": "admin-support",
     },
 
