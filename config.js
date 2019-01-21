@@ -86,6 +86,11 @@ module.exports = {
       "url": domain + "/user/login",
     },
     {
+      "label": environment + ": User - Login page - Validation",
+      "url": domain + "/user/login",
+      "submitForm": true
+    },
+    {
       "label": environment + ": User - Reset password",
       "url": domain + "/user/reset-password",
     },
@@ -123,6 +128,11 @@ module.exports = {
     {
       "label": environment + ": Supplier - Sign up for framework alerts",
       "url": domain + "/suppliers/mailing-list",
+    },
+    {
+      "label": environment + ": Supplier - Sign up for framework alerts - Validation",
+      "url": domain + "/suppliers/mailing-list",
+      "submitForm": true
     },
     {
       "label": environment + ": Supplier - DUNS number",
