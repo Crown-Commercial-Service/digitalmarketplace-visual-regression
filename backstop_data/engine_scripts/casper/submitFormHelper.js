@@ -2,6 +2,6 @@
 module.exports = function(casper, scenario) {
   //just submit the empty form
   casper.thenEvaluate(function() {
-    document.querySelector('form:nth-child(2)').submit(); //logout now first form on page.
+    document.querySelector('main form').submit(); // ignore forms in header and footer
   });
 };

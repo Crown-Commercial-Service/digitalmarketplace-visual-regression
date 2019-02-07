@@ -130,6 +130,11 @@ module.exports = {
       "url": domain + "/suppliers/mailing-list",
     },
     {
+      "label": environment + ": Supplier - Sign up for framework alerts - Validation",
+      "url": domain + "/suppliers/mailing-list",
+      "submitForm": true
+    },
+    {
       "label": environment + ": Supplier - DUNS number",
       "url": domain + "/suppliers/create/duns-number",
     },
