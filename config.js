@@ -41,6 +41,10 @@ module.exports = {
       "url": domain + "/crown-hosting"
     },
     {
+      "label": environment + ": Privacy Notice",
+      "url": domain + "/privacy-notice"
+    },
+    {
       "label": environment + ": Terms and conditions",
       "url": domain + "/terms-and-conditions"
     },
