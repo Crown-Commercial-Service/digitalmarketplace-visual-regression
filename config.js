@@ -24,6 +24,7 @@ module.exports = {
       "height": 768
     }
   ],
+  "misMatchThreshold": 0,
   "onBeforeScript": "onBefore.js",
   "onReadyScript": "onReady.js",
   "scenarios": [
