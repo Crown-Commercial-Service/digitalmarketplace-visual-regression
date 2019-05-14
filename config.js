@@ -199,7 +199,7 @@ module.exports = {
     "html_report": "backstop_data/html_report"
   },
   "report": [],
-  "engine": "phantomjs",
+  "engine": "casper",
   "engineFlags": [],
   "debug": false,
   "debugWindow": false
