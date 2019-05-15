@@ -1,6 +1,8 @@
 #!/bin/bash
 
-VERSION=2.1.0
+set -ex
+
+VERSION="$(npx -c 'echo "$npm_package_version"')"
 
 docker build -t digitalmarketplace/backstopjs:${VERSION} .
 docker push digitalmarketplace/backstopjs:${VERSION}
