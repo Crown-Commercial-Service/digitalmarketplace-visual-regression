@@ -1,6 +1,6 @@
 {
   "name": "dm-visual-regression-test-app",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Visual regression testing app with login for the Digital Marketplace",
   "scripts": {
     "approve": "backstop approve",
