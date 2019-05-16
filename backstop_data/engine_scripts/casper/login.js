@@ -5,7 +5,6 @@ module.exports = function (casper, scenario) {
   var cookiePath = "cookies.json";
 
   console.log(user.email);
-  console.log(user.password);
 
   if (user.email === undefined || user.password === undefined) {
     casper.echo('Email or password undefined for "' + scenario.user + '" - bailing from login.', 'WARN');

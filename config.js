@@ -195,12 +195,14 @@ module.exports = {
   "paths": {
     "bitmaps_reference": "backstop_data/bitmaps_reference",
     "bitmaps_test": "backstop_data/bitmaps_test",
-    "engine_scripts": "backstop_data/engine_scripts/casper",
+    "engine_scripts": "backstop_data/engine_scripts/puppeteer",
     "html_report": "backstop_data/html_report"
   },
   "report": [],
-  "engine": "phantomjs",
-  "engineFlags": [],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"],
+  },
   "debug": false,
   "debugWindow": false
 }
