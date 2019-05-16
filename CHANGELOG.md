@@ -2,6 +2,11 @@
 
 Records breaking changes from major version bumps
 
+## 3.0.0
+
+- Remove Dockerfile as it is no longer needed
+- Upgrade to BackstopJS v4
+
 ## 2.0.0
 
 PR: [#15](https://github.com/alphagov/digitalmarketplace-visual-regression/pull/15)
