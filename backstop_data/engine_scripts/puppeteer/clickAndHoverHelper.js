@@ -17,6 +17,11 @@ module.exports = async (page, scenario) => {
     }
   }
 
+  if (!hoverSelector) {
+    // make sure we're not hovering over anything that could change state
+    await page.mouse.move(0, 0);
+  }
+
   if (postInteractionWait) {
     await page.waitFor(postInteractionWait);
   }
