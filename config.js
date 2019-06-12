@@ -33,11 +33,6 @@ module.exports = {
       "url": domain
     },
     {
-      "label": environment + ": Homepage with feedback form open",
-      "url": domain,
-      "clickSelector": ".js-report-a-problem-toggle"
-    },
-    {
       "label": environment + ": Crown Hosting - Overview",
       "url": domain + "/crown-hosting"
     },
