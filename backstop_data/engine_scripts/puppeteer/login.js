@@ -23,7 +23,7 @@ module.exports = async (page, scenario) => {
 
   await Promise.all([
     page.waitForNavigation(),
-    page.click('.button-save'), //should redirect you to desired page
+    page.click('.govuk-button, .button-save'), //should redirect you to desired page
   ]);
 
   return;
