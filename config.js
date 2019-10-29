@@ -98,6 +98,11 @@ module.exports = {
       "label": environment + ": User - Reset password (validation for invalid token)",
       "url": domain + "/user/reset-password/1",
     },
+    {
+      "label": environment + ": User - Join user research mailing list",
+      "url": domain + "/user/notifications/user-research",
+      "user": "buyer",
+    },
 
 
     {
