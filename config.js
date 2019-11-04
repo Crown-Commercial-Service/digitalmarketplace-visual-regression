@@ -190,7 +190,32 @@ module.exports = {
       "label": environment + ": Admin (Category) - Account - dashboard",
       "url": domain + "/admin",
       "user": "admin-category",
-    }
+    },
+
+    {
+      "label": environment + ": Admin - 404",
+      "url": domain + "/admin/404",
+    },
+    {
+      "label": environment + ": Buyer - 404",
+      "url": domain + "/404",
+    },
+    {
+      "label": environment + ": Briefs - 404",
+      "url": domain + "/buyers/404",
+    },
+    {
+      "label": environment + ": Brief responses - 404",
+      "url": domain + "/suppliers/opportunities/404",
+    },
+    {
+      "label": environment + ": Supplier - 404",
+      "url": domain + "/suppliers/404",
+    },
+    {
+      "label": environment + ": User - 404",
+      "url": domain + "/user/404",
+    },
   ],
   "paths": {
     "bitmaps_reference": "backstop_data/bitmaps_reference",
