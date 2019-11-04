@@ -193,6 +193,11 @@ module.exports = {
     },
 
     {
+      "label": environment + ": Admin - 403",
+      "url": domain + "/admin/admin-users",
+      "user": "admin-support",
+    },
+    {
       "label": environment + ": Admin - 404",
       "url": domain + "/admin/404",
     },
