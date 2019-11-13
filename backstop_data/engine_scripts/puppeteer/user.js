@@ -16,6 +16,15 @@ module.exports = function (scenario) {
   } else if (scenario.user === 'admin-sourcing') {
     var email = process.env.DM_ADMIN_CCS_SOURCING_USER_EMAIL;
     var password = process.env.DM_ADMIN_CCS_SOURCING_USER_PASSWORD;
+  } else if (scenario.user === 'admin-data-controller') {
+    var email = process.env.DM_ADMIN_CCS_DATA_CONTROLLER_USER_EMAIL;
+    var password = process.env.DM_ADMIN_CCS_DATA_CONTROLLER_USER_PASSWORD;
+  } else if (scenario.user === 'admin-framework-manager') {
+    var email = process.env.DM_ADMIN_FRAMEWORK_MANAGER_USER_EMAIL;
+    var password = process.env.DM_ADMIN_FRAMEWORK_MANAGER_USER_PASSWORD;
+  } else if (scenario.user === 'admin-manager') {
+    var email = process.env.DM_ADMIN_MANAGER_USER_EMAIL;
+    var password = process.env.DM_ADMIN_MANAGER_USER_PASSWORD;
   } else {
     console.debug('No user required for this scenario.');
   }
