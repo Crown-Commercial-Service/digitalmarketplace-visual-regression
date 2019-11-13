@@ -175,9 +175,24 @@ module.exports = {
       "user": "admin-sourcing",
     },
     {
+      "label": environment + ": Admin (Data controller) - Account - dashboard",
+      "url": domain + "/admin",
+      "user": "admin-data-controller",
+    },
+    {
       "label": environment + ": Admin (Support) - Account - dashboard",
       "url": domain + "/admin",
       "user": "admin-support",
+    },
+    {
+      "label": environment + ": Admin (Framework manager) - Account - dashboard",
+      "url": domain + "/admin",
+      "user": "admin-framework-manager",
+    },
+    {
+      "label": environment + ": Admin (Manager) - Account - dashboard",
+      "url": domain + "/admin",
+      "user": "admin-manager",
     },
 
     {
