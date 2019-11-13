@@ -165,10 +165,21 @@ module.exports = {
 
 
     {
+      "label": environment + ": Admin (Category) - Account - dashboard",
+      "url": domain + "/admin",
+      "user": "admin-category",
+    },
+    {
+      "label": environment + ": Admin (Sourcing) - Account - dashboard",
+      "url": domain + "/admin",
+      "user": "admin-sourcing",
+    },
+    {
       "label": environment + ": Admin (Support) - Account - dashboard",
       "url": domain + "/admin",
       "user": "admin-support",
     },
+
     {
       "label": environment + ": Admin (Support) - Account - Add buyer domain",
       "url": domain + "/admin/buyers/add-buyer-domains",
@@ -184,12 +195,6 @@ module.exports = {
       "label": environment + ": Admin (Sourcing) - Account - On-Hold DOS2 agreements",
       "url": domain + "/admin/agreements/digital-outcomes-and-specialists-3?status=on-hold",
       "user": "admin-sourcing",
-    },
-
-    {
-      "label": environment + ": Admin (Category) - Account - dashboard",
-      "url": domain + "/admin",
-      "user": "admin-category",
     },
 
     {
