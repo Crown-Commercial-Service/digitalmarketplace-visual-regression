@@ -106,6 +106,17 @@ module.exports = {
 
 
     {
+      "label": environment + ": Buyer - Invalid domain error page",
+      "url": domain + "/buyers/create",
+      "keyPressSelectors": [
+        {
+          "selector": "#input-email_address",
+          "keyPress": "example@example.com",
+        },
+      ],
+      "clickSelector": ".govuk-button",
+    },
+    {
       "label": environment + ": Buyer - Account - Dashboard",
       "url": domain + "/buyers",
       "user": "buyer",
