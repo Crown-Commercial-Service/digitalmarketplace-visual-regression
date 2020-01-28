@@ -61,6 +61,10 @@ module.exports = {
       "label": environment + ": DOS - Find a user research studio",
       "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-4/requirements/user-research-studios"
     },
+    {
+      "label": environment + ": DOS - Opportunity",
+      "url": domain + "/digital-outcomes-and-specialists/opportunities/10116"
+    },
 
 
     {
