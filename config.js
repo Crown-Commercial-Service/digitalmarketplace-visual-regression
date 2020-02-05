@@ -25,6 +25,7 @@ module.exports = {
     }
   ],
   "misMatchThreshold": 0,
+  "requireSameDimensions": false,
   "onBeforeScript": "onBefore.js",
   "onReadyScript": "onReady.js",
   "scenarios": [
