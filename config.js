@@ -108,6 +108,10 @@ module.exports = {
       "url": domain + "/user/notifications/user-research",
       "user": "buyer",
     },
+    {
+      "label": environment + ": User - Cookie Settings",
+      "url": domain + "/user/cookie-settings",
+    },
 
 
     {
