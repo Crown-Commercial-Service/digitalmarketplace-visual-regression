@@ -160,6 +160,14 @@ module.exports = {
       "submitForm": true
     },
     {
+      "label": environment + ": Supplier - Become a supplier",
+      "url": domain + "/suppliers/supply",
+    },
+    {
+      "label": environment + ": Supplier - Start account creation",
+      "url": domain + "/suppliers/create/start",
+    },
+    {
       "label": environment + ": Supplier - DUNS number",
       "url": domain + "/suppliers/create/duns-number",
     },
