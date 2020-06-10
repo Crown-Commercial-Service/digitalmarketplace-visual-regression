@@ -3,8 +3,8 @@
   "version": "3.0.1",
   "description": "Visual regression testing app with login for the Digital Marketplace",
   "scripts": {
-    "approve": "backstop approve",
-    "test": "backstop test"
+    "approve": "backstop --configPath=config.js approve",
+    "test": "backstop --configPath=config.js test"
   },
   "repository": {
     "type": "git",

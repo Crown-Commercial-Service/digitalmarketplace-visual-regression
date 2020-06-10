@@ -123,7 +123,7 @@ module.exports = {
           "keyPress": "example@example.com",
         },
       ],
-      "clickSelector": ".govuk-button",
+      "submitForm": true
     },
     {
       "label": environment + ": Buyer - Account - Dashboard",
