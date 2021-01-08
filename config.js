@@ -2,8 +2,19 @@ function capitalize(string) {
     return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 }
 
+function get_live_dos_framework(environment) {
+    if (environment=="Preview") {
+        return "digital-outcomes-and-specialists-5"
+    }
+    else {
+        return "digital-outcomes-and-specialists-4"
+    }
+}
+
 var environment = capitalize(process.env.DM_ENVIRONMENT || 'development')
 var domain = process.env.DM_FRONTEND_DOMAIN || 'http://localhost'
+
+var live_dos_framework = get_live_dos_framework(environment)
 
 module.exports = {
   "id": "backstop_dm",
@@ -56,11 +67,11 @@ module.exports = {
 
     {
       "label": environment + ": DOS - Find a specialist",
-      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-4/requirements/digital-specialists"
+      "url": domain + "/buyers/frameworks/" + live_dos_framework + "/requirements/digital-specialists"
     },
     {
       "label": environment + ": DOS - Find a user research studio",
-      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-4/requirements/user-research-studios"
+      "url": domain + "/buyers/frameworks/" + live_dos_framework + "/requirements/user-research-studios"
     },
     {
       "label": environment + ": DOS - Opportunity",
@@ -132,12 +143,12 @@ module.exports = {
     },
     {
       "label": environment + ": Buyer - Account - Create requirement form",
-      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-4/requirements/digital-specialists/create",
+      "url": domain + "/buyers/frameworks/" + live_dos_framework + "/requirements/digital-specialists/create",
       "user": "buyer",
     },
     {
       "label": environment + ": Buyer - Account - Create requirement form - Validation",
-      "url": domain + "/buyers/frameworks/digital-outcomes-and-specialists-4/requirements/digital-specialists/create",
+      "url": domain + "/buyers/frameworks/" + live_dos_framework + "/requirements/digital-specialists/create",
       "user": "buyer",
       "submitForm": true
     },
