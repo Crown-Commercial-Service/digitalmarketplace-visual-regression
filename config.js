@@ -3,12 +3,7 @@ function capitalize(string) {
 }
 
 function get_live_dos_framework(environment) {
-    if (environment=="Preview") {
-        return "digital-outcomes-and-specialists-5"
-    }
-    else {
-        return "digital-outcomes-and-specialists-4"
-    }
+    return "digital-outcomes-and-specialists-5"
 }
 
 var environment = capitalize(process.env.DM_ENVIRONMENT || 'development')
