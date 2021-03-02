@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/alphagov/digitalmarketplace-visual-regression#readme",
   "devDependencies": {
-    "backstopjs": "^5.1.0"
+    "backstopjs": "^5.0.6"
   }
 }
