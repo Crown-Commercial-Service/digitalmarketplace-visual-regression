@@ -30,6 +30,7 @@ module.exports = {
       "height": 768
     }
   ],
+  "asyncCaptureLimit": 1,
   "misMatchThreshold": 0,
   "requireSameDimensions": false,
   "onBeforeScript": "onBefore.js",
