@@ -13,12 +13,12 @@ module.exports = async (page, scenario) => {
     return;
   }
 
-  await page.waitFor('input[name="email_address"]')
+  await page.waitForSelector('input[name="email_address"]')
   await page.type('input[name="email_address"]', user.email);
 
   await page.click('input[name="password"]');
 
-  await page.waitFor('input[name="password"]')
+  await page.waitForSelector('input[name="password"]')
   await page.type('input[name="password"]', user.password);
 
   await Promise.all([
