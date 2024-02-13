@@ -9,6 +9,7 @@ function capitalize(string) {
 
 var environment = capitalize(process.env.DM_ENVIRONMENT || 'development')
 var domain = process.env.DM_FRONTEND_DOMAIN || 'http://localhost'
+var admin_domain = process.env.DM_ADMIN_FRONTEND_DOMAIN || 'http://localhost'
 
 // Removed due to the closing of DOS 5
 // var live_dos_framework = get_live_dos_framework(environment)
@@ -206,60 +207,60 @@ module.exports = {
 
     {
       "label": environment + ": Admin (Category) - Account - dashboard",
-      "url": domain + "/admin",
+      "url": admin_domain + "/admin",
       "user": "admin-category",
     },
     {
       "label": environment + ": Admin (Sourcing) - Account - dashboard",
-      "url": domain + "/admin",
+      "url": admin_domain + "/admin",
       "user": "admin-sourcing",
     },
     {
       "label": environment + ": Admin (Data controller) - Account - dashboard",
-      "url": domain + "/admin",
+      "url": admin_domain + "/admin",
       "user": "admin-data-controller",
     },
     {
       "label": environment + ": Admin (Support) - Account - dashboard",
-      "url": domain + "/admin",
+      "url": admin_domain + "/admin",
       "user": "admin-support",
     },
     {
       "label": environment + ": Admin (Framework manager) - Account - dashboard",
-      "url": domain + "/admin",
+      "url": admin_domain + "/admin",
       "user": "admin-framework-manager",
     },
     {
       "label": environment + ": Admin (Manager) - Account - dashboard",
-      "url": domain + "/admin",
+      "url": admin_domain + "/admin",
       "user": "admin-manager",
     },
 
     {
       "label": environment + ": Admin (Support) - Account - Add buyer domain",
-      "url": domain + "/admin/buyers/add-buyer-domains",
+      "url": admin_domain + "/admin/buyers/add-buyer-domains",
       "user": "admin-support",
     },
     {
       "label": environment + ": Admin (Support) - Account - Suppliers containing 'ltd'",
-      "url": domain + "/admin/suppliers?supplier_name=ltd",
+      "url": admin_domain + "/admin/suppliers?supplier_name=ltd",
       "user": "admin-support",
     },
 
     {
       "label": environment + ": Admin (Sourcing) - Account - On-Hold DOS2 agreements",
-      "url": domain + "/admin/agreements/digital-outcomes-and-specialists-3?status=on-hold",
+      "url": admin_domain + "/admin/agreements/digital-outcomes-and-specialists-3?status=on-hold",
       "user": "admin-sourcing",
     },
 
     {
       "label": environment + ": Admin - 403",
-      "url": domain + "/admin/admin-users",
+      "url": admin_domain + "/admin/admin-users",
       "user": "admin-support",
     },
     {
       "label": environment + ": Admin - 404",
-      "url": domain + "/admin/404",
+      "url": admin_domain + "/admin/404",
     },
     {
       "label": environment + ": Buyer - 404",
